@@ -7,12 +7,11 @@
     <string name="multiply">Multiply</string>
     <string name="subtract">Subtract</string>
     <string name="add">Add</string>
-    <string name="todo" translatable="false">TODO</string>
-    <string name="imagecalc" translatable="false">imageCalc</string>
     <string name="empty">Please enter a number.</string>
     <string name="divide_by_zero">Please do not divide by 0.</string>
     <string name="clearButton">Button</string>
     <string name="closeButton">Button</string>
     <string name="clear">Clear</string>
     <string name="close">Close</string>
+    <string name="easter_app_info">Developed by Carlos Avilés Tapia</string>
 </resources>

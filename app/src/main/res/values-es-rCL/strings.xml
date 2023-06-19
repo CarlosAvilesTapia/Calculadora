@@ -14,4 +14,5 @@
     <string name="closeButton">Cerrar</string>
     <string name="clear">Borrar</string>
     <string name="close">Cerrar</string>
+    <string name="easter_app_info">Desarrollado por Carlos Avilés Tapia</string>
 </resources>

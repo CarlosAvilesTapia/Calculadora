@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Button divideButton = findViewById(R.id.divideButton);
         Button clearButton = findViewById(R.id.clearButton);
         Button closeButton = findViewById(R.id.closeButton);
+        ImageButton easterButton = findViewById(R.id.easterButton);
 
         // Asignación de comportamiento al botón suma
         addButton.setOnClickListener(new View.OnClickListener() {
@@ -145,6 +147,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish(); // Finalizar la aplicación.
+            }
+        });
+
+        easterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getBaseContext(), "Developed by Carlos Avilés Tapia", Toast.LENGTH_LONG).show();
             }
         });
     }
