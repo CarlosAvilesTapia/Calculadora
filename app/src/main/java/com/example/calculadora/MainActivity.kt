@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             val num2 = number2.text.toString().toDouble()
 
             // Se asigna al campo de resultado el resultado obtenido del método correspondiente.
-            result.text = calculateSum(num1, num2).toString() + ""
+            result.text = calculateSum(num1, num2).toString()
         })
 
         // Asignación de comportamiento al botón resta.
@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
             val num2 = number2.text.toString().toDouble()
 
             // Se asigna al campo de resultado el resultado obtenido del método correspondiente.
-            result.text = calculateSubtract(num1, num2).toString() + ""
+            result.text = calculateSubtract(num1, num2).toString()
         })
 
         // Asignación de comportamiento al botón multiplicación.
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
             val num2 = number2.text.toString().toDouble()
 
             // Se asigna al campo de resultado el resultado obtenido del método correspondiente.
-            result.text = calculateMultiplication(num1, num2).toString() + ""
+            result.text = calculateMultiplication(num1, num2).toString()
         })
 
         // Asignación de comportamiento al botón división.
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
             val num2 = number2.text.toString().toDouble()
 
             // Se asigna al campo de resultado el resultado obtenido del método correspondiente.
-            result.text = calculateDivision(num1, num2).toString() + ""
+            result.text = calculateDivision(num1, num2).toString()
         })
 
         // Asignación de comportamiento al botón borrar.
@@ -118,6 +118,7 @@ class MainActivity : AppCompatActivity() {
         closeButton.setOnClickListener {
             finish() // Finalizar la aplicación.
         }
+
         easterButton.setOnClickListener {
             Toast.makeText(
                 baseContext,
